@@ -12,7 +12,7 @@ Use the release asset `MSP603-InteractiveFramework-v1.0.0-FMOD.zip` (SHA-256 `d5
 - FMOD Studio `2.03.14`
 - FMOD for Unity `2.03.14`
 
-Wwise is not included in v1.0.0. Start with [the student documentation index](docs/README.md).
+Wwise is not included in v1.0.0. Start with the [MSP603 Student Guide](docs/StudentGuide.md); the [documentation index](docs/README.md) provides individually linkable Canvas/VLE topics.
 
 ## Current documentation
 
