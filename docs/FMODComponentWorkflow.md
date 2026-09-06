@@ -25,4 +25,6 @@ Create the parameters listed in [FMOD Authoring Reference](FMODAuthoringReferenc
 6. Configure VCAs and settings controls.
 7. Map a procedural gameplay hook only when needed.
 
-For connection and recovery instructions, see [FMOD Setup](FMODSetup.md) and [Troubleshooting and Support](Troubleshooting.md).
+Apply the workflow to scene-level music/ambience and interface sources, the Cannon/Archer/Mage/Inferno tower prefabs, Goblin Raider/Goblin Brute/Ruin Knight enemy prefabs, and projectile/Inferno-flame sources as appropriate to your brief.
+
+For first-time connection and recovery instructions, see [Setting Up FMOD After Downloading the Project](FMODSetupGuide.md) and [Troubleshooting and Support](Troubleshooting.md).
