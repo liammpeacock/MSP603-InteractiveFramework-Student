@@ -2,6 +2,8 @@
 
 Each item below is an independently linkable or VLE-embeddable topic. These documents are safe for the student distribution; lecturer reference events, audio assets, assignments, and solution notes are not included.
 
+These GitHub pages are living documentation. The documentation inside a downloaded release ZIP is the snapshot supplied with that package; use these pages for current guidance and VLE links.
+
 | VLE topic | Resource | Use it when |
 | --- | --- | --- |
 | Getting started | [Getting Started](GettingStarted.md) | You have downloaded the approved project. |

@@ -13,3 +13,7 @@ Use the release asset `MSP603-InteractiveFramework-v1.0.0-FMOD.zip` (SHA-256 `d5
 - FMOD for Unity `2.03.14`
 
 Wwise is not included in v1.0.0. Start with [the student documentation index](docs/README.md).
+
+## Current documentation
+
+The documentation in the downloaded ZIP is the snapshot supplied with `v1.0.0`. This repository's Markdown guides are the maintained source for current setup, troubleshooting, accessibility and teaching clarification. Use the GitHub documentation pages for VLE links; the release ZIP remains the approved project download.
