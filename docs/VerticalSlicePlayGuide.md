@@ -2,7 +2,15 @@
 
 Use this guide to learn the game and deliberately exercise states that can drive your audio work.
 
-## Open the game
+## Play the reference game first
+
+**[Play MSP603 Tower Defence in your browser](https://bimmmcrliampeacock.itch.io/msp603-tower-defence)** — no installation is required.
+
+The browser version is the quickest way to learn the finished gameplay, explore all three levels, and identify states you may want to respond to with audio. It is a reference/play-testing route, not your assessment workspace: create and test your own audio implementation in the approved Unity/FMOD student project.
+
+Reference-game controls include mouse/primary click for menus and gameplay, **Escape** for pause/back, the in-game speed control for 1×/2× play, and teaching/demo shortcuts **F8** (add 500 gold), **F9** (skip to Victory), and **F10** (skip to Defeat).
+
+## Open your student project
 
 1. Open the approved student project in Unity `6000.0.78f1`.
 2. Open `Assets/MSP603/Scenes/MainMenu.unity`.
