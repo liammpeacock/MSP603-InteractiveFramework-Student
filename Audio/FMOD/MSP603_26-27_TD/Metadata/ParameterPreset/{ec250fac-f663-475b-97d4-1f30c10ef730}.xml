@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ec250fac-f663-475b-97d4-1f30c10ef730}">
+		<property name="name">
+			<value>TowerType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{34db2240-cf90-4ccf-b9e0-1aa9fb299037}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{da809a98-76b2-45d6-a23c-8626d3d51290}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{da809a98-76b2-45d6-a23c-8626d3d51290}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Cannon</value>
+			<value>Archer</value>
+			<value>Inferno</value>
+			<value>Mage</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

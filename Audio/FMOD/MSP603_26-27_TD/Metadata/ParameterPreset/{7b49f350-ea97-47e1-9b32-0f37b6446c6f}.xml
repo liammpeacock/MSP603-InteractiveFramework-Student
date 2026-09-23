@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7b49f350-ea97-47e1-9b32-0f37b6446c6f}">
+		<property name="name">
+			<value>RTPC_WaveCounter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{34db2240-cf90-4ccf-b9e0-1aa9fb299037}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{47db7397-410f-42a1-9d50-63ec3a8f5dcf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{47db7397-410f-42a1-9d50-63ec3a8f5dcf}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Wave0</value>
+			<value>Wave1</value>
+			<value>Wave2</value>
+			<value>Wave3</value>
+			<value>Wave4</value>
+			<value>Victory</value>
+			<value>Defeat</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

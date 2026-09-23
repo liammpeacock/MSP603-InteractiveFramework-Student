@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{246a0317-4d34-4c77-b9f5-128f9e5c766e}">
+		<property name="assetPath">
+			<value>UEDS EXPLOSION NEUTRAL SLOW DISTORTED Medium 2.0.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>24.699999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{356a628e-2adf-45f2-ba2d-2c323946ff60}</destination>
+		</relationship>
+	</object>
+</objects>

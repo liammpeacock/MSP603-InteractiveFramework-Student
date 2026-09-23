@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{82c396d1-69ff-4999-bb8e-e3db81af6b67}">
+		<property name="name">
+			<value>RTPC_Music_Volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{34db2240-cf90-4ccf-b9e0-1aa9fb299037}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{56301545-22d9-4706-a763-8a92a729eea4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{56301545-22d9-4706-a763-8a92a729eea4}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

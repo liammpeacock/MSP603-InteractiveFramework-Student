@@ -1,0 +1,17 @@
+{
+    "name": "MSP603.FMOD",
+    "rootNamespace": "MSP603.TowerDefense.FMODIntegration",
+    "references": [
+        "MSP603.Runtime",
+        "FMODUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

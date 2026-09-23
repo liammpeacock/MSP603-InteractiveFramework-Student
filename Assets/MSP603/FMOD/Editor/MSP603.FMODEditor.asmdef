@@ -1,0 +1,20 @@
+{
+    "name": "MSP603.FMODEditor",
+    "rootNamespace": "MSP603.TowerDefense.FMODIntegration.Editor",
+    "references": [
+        "MSP603.Runtime",
+        "MSP603.FMOD",
+        "FMODUnity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

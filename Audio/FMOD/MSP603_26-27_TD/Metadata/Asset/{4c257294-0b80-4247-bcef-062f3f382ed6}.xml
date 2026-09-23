@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{4c257294-0b80-4247-bcef-062f3f382ed6}">
+		<property name="assetPath">
+			<value>ReferenceAudio/Towers/Fire/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{356a628e-2adf-45f2-ba2d-2c323946ff60}</destination>
+		</relationship>
+	</object>
+</objects>

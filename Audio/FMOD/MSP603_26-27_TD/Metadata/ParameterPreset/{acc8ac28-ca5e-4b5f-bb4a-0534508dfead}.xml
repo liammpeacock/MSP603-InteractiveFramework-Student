@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{acc8ac28-ca5e-4b5f-bb4a-0534508dfead}">
+		<property name="name">
+			<value>RTPC_Master_Volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{34db2240-cf90-4ccf-b9e0-1aa9fb299037}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{37f4ede7-55e6-432e-a624-74fb50654038}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{37f4ede7-55e6-432e-a624-74fb50654038}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

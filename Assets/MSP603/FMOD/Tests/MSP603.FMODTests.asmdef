@@ -1,0 +1,23 @@
+{
+    "name": "MSP603.FMODTests",
+    "rootNamespace": "MSP603.TowerDefense.FMODIntegration.Tests",
+    "references": [
+        "MSP603.Runtime",
+        "MSP603.FMOD",
+        "FMODUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
