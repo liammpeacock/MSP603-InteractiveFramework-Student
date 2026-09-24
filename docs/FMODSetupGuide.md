@@ -27,6 +27,10 @@ In Unity, confirm that:
 - official components such as **FMOD Studio Event Emitter** can be found in the Inspector;
 - the Console contains no FMOD compilation errors.
 
+![Unity Player settings with Run In Background enabled](images/unity-run-in-background.png)
+
+*Run In Background allows Unity to keep running while you inspect FMOD during supported Live Update workflows.*
+
 Empty event selections and empty student project/bank paths are expected. Compilation errors, a missing FMOD menu, or missing FMOD component types indicate an integration problem.
 
 ### 3. Reintegrate only when necessary
@@ -42,6 +46,10 @@ Reopen Unity `6000.0.78f1`, allow the integration to import and all scripts to r
 The downloaded Unity project contains the playable framework and FMOD integration. Your separate FMOD Studio project contains the audio events, parameters, routing, mixing, and banks that you author. Connecting them lets Unity discover and play your FMOD content; it does not copy lecturer content or create the assessed sound design for you.
 
 Create your FMOD Studio project in a writable location you control. Keep its source audio and built banks together in a clear project structure, and back it up according to your module instructions.
+
+![Student FMOD mixer with supplied groups and deliberately incomplete event routing](images/fmod-student-mixer-scaffold.png)
+
+*The supplied mixer scaffold provides structure while leaving meaningful event routing for Student authoring.*
 
 ### 2. Create and build FMOD content
 

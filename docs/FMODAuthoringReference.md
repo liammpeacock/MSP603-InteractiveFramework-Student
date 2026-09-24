@@ -15,6 +15,14 @@ This is the student-safe catalogue of framework opportunities. It identifies wha
 | `UpgradeLevel` | Local labelled | `1`, `2`, `3` for tower state work. |
 | `Activity` | Local labelled | `Idle`, `Firing`, `Targeting` for tower state work. |
 
+![FMOD Paused labelled parameter configured globally with Unpaused as its initial value](images/fmod-paused-global-parameter.png)
+
+*The global `Paused` parameter distinguishes the shared Unpaused and Paused game states.*
+
+![FMOD Proximity continuous parameter configured locally from zero to one](images/fmod-proximity-local-parameter.png)
+
+*Unity supplies an independent local `0`–`1` Proximity value for each tower; you decide how that value affects sound.*
+
 ## Authoring surfaces
 
 - **Student FMOD Authoring** scene objects expose music, ambience, UI, settings, wave, outcome, and gameplay opportunities.
@@ -40,6 +48,10 @@ All four tower families—Cannon, Archer, Mage, and Inferno—have source prefab
 - `TowerBuilt`, `TowerUpgraded`, `TowerUpgradeFailed`, `TowerSold`, and `TowerDestroyed` describe shared lifecycle moments.
 - Each tower instance can publish local `TowerType`, `UpgradeLevel`, and `Activity` values through the supplied tower-parameter component.
 - Tower prefabs expose placed, attack, upgrade, and destroyed UnityEvents for official-component workflows.
+
+![Tower Ambience event displaying TowerType, UpgradeLevel, Activity and Proximity parameters](images/fmod-tower-ambience-parameters.png)
+
+*The Tower Ambience event exposes the available local tower parameters without prescribing the completed sonic response.*
 
 These semantic identifiers are gameplay hooks, not prescribed FMOD event paths. Use only mappings and assignments appropriate to your brief.
 

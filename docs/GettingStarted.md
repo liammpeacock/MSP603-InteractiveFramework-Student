@@ -12,6 +12,14 @@ Use the approved **MSP603 v1.0.0 Student FMOD** package supplied through the VLE
 4. Open `Assets/MSP603/Scenes/MainMenu.unity` and enter Play Mode.
 5. Select **Play Level 1** to confirm the gameplay project opens with 20 lives and offers Cannon, Archer, Mage, and Inferno on a build pad.
 
+![Unity Level 1 running with enemies and placed towers visible](images/unity-gameplay-level01.png)
+
+*Level 1 provides a quick gameplay and audio-integration check.*
+
 ## What is intentionally incomplete
 
 The project includes three playable levels, gameplay, accessible authoring objects, official FMOD components, and runtime state hooks. You provide your own FMOD project, banks, event assignments, parameters, mixing, and sound design. Empty student event/bank assignments are intentional. Continue with [Setting Up FMOD After Downloading the Project](FMODSetupGuide.md).
+
+![Student FMOD Event Browser showing the supplied Enemies, Music, Towers and UI event scaffold](images/fmod-student-event-scaffold.png)
+
+*The supplied Student FMOD project retains the event structure required by the framework.*
