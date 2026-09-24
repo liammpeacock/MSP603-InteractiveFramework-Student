@@ -8,96 +8,130 @@ This guide assumes no previous Unity/FMOD integration experience. Complete Part 
 - FMOD Studio `2.03.14`
 - FMOD for Unity `2.03.14`
 
-Use the approved **MSP603 v1.0.0 Student FMOD** release asset. Do not use GitHub's generated source archives or a lecturer/reference package.
+Use the approved **MSP603 v1.1.0 Student FMOD** package. Do not use GitHub's automatically generated source archives or a Lecturer Reference package.
 
-## Part A — FMOD plugin / middleware setup
+## What the Student package contains
 
-### 1. Install the applications
+The v1.1.0 Student package includes:
 
-Install Unity `6000.0.78f1` through Unity Hub and install FMOD Studio `2.03.14` using the institution-approved installer or the official FMOD download route identified by your lecturer. Sign-in or licensing requirements belong to FMOD and your institution; do not share credentials in a support report.
+- the playable Unity framework;
+- FMOD for Unity `2.03.14`;
+- the matching Student FMOD Studio project;
+- the required event, parameter and bank structure;
+- compiled known-good reference banks;
+- deliberately incomplete Student authoring work, including mixer/event routing that students must complete where required.
 
-The approved student project normally already contains FMOD for Unity `2.03.14`. After extraction, open the project in the required Unity version and allow the initial import, script compilation, and any FMOD asset refresh to finish before entering Play Mode. Import and compilation can take several minutes on first open.
+The supplied FMOD Studio project is:
 
-### 2. Confirm the Unity integration
+`Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro`
 
-In Unity, confirm that:
+It is the project you continue authoring. **Do not replace it with a newly created or unrelated FMOD project.**
+
+## Part A — confirm the supplied integration
+
+### 1. Open Unity
+
+Open the Student Unity project in Unity `6000.0.78f1`. Allow the initial import, script compilation and FMOD asset refresh to finish before entering Play Mode.
+
+Confirm that:
 
 - an **FMOD** menu is visible;
 - **FMOD > Edit Settings** opens;
-- official components such as **FMOD Studio Event Emitter** can be found in the Inspector;
-- the Console contains no FMOD compilation errors.
+- official components such as **FMOD Studio Event Emitter** are available;
+- the Console contains no FMOD compilation errors;
+- the supplied event paths are retained.
 
 ![Unity Player settings with Run In Background enabled](images/unity-run-in-background.png)
 
 *Run In Background allows Unity to keep running while you inspect FMOD during supported Live Update workflows.*
 
-Empty event selections and empty student project/bank paths are expected. Compilation errors, a missing FMOD menu, or missing FMOD component types indicate an integration problem.
+### 2. Test the known-good reference banks first
 
-### 3. Reintegrate only when necessary
+Before changing the Student FMOD project, run the game and confirm the supplied compiled reference banks play. This separates a Unity/integration problem from a problem in your later FMOD authoring.
 
-If the FMOD menu or component types are missing after import, close Unity and follow the institution-approved FMOD for Unity `2.03.14` installation/reintegration method. Obtain that exact integration version through the approved FMOD or institutional route. Do not install a different version over the project and do not copy the lecturer FMOD project, banks, or completed event assignments.
+The reference banks are diagnostic material. They are not evidence that the Student FMOD authoring project contains the Lecturer's source audio or completed sound design.
 
-Reopen Unity `6000.0.78f1`, allow the integration to import and all scripts to recompile, then repeat the confirmation checks above. If you are unsure whether reintegration is necessary, stop and use [Troubleshooting and Support](Troubleshooting.md) rather than deleting project content.
+### 3. Open the supplied Student FMOD project
 
-## Part B — student audio authoring
+Open `Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro` in FMOD Studio `2.03.14`.
 
-### 1. Understand the two projects
-
-The downloaded Unity project contains the playable framework and FMOD integration. Your separate FMOD Studio project contains the audio events, parameters, routing, mixing, and banks that you author. Connecting them lets Unity discover and play your FMOD content; it does not copy lecturer content or create the assessed sound design for you.
-
-Create your FMOD Studio project in a writable location you control. Keep its source audio and built banks together in a clear project structure, and back it up according to your module instructions.
+The project retains the framework's integration contract, including required event paths, parameters and bank structure. Lecturer source audio is not included. Event content, routing and creative implementation remain for you to author.
 
 ![Student FMOD mixer with supplied groups and deliberately incomplete event routing](images/fmod-student-mixer-scaffold.png)
 
 *The supplied mixer scaffold provides structure while leaving meaningful event routing for Student authoring.*
 
-### 2. Create and build FMOD content
+### 4. Reintegrate only when necessary
 
-1. Create the events and parameters required by your current assessment brief.
-2. Reproduce standard names and labels exactly as listed in the [FMOD Authoring Reference](FMODAuthoringReference.md).
-3. Assign every event you want Unity to discover to an appropriate bank.
-4. Build the banks for your current desktop platform from FMOD Studio.
+If the FMOD menu or component types are genuinely missing or damaged, use the institution-approved FMOD for Unity `2.03.14` repair/reintegration route.
 
-An event that is not assigned to a bank, or a bank that has not been built, will not be available correctly in Unity.
+After repair, continue using the supplied Student `.fspro`. An **Event Not Found** message after reintegration can mean Unity has retained the event path but has not yet resolved the matching FMOD event data. Do not respond by creating a replacement FMOD project.
 
-### 3. Connect Unity
+See [Troubleshooting and Support](Troubleshooting.md) before deleting or replacing project content.
 
-1. In Unity, open **FMOD > Edit Settings**.
-2. Configure Unity to use your FMOD Studio project or its built-bank directory, following the option demonstrated in your teaching session.
-3. Use paths to your own project/banks, not paths from a lecturer machine or another student.
-4. Build the banks in FMOD Studio and allow Unity's Event Browser/bank data to refresh.
-5. Confirm that your event names appear in Unity.
+## Part B — author your assessed audio
 
-If events remain missing, confirm the project/bank path, bank assignment, successful bank build, current platform, and Event Browser refresh before changing anything else.
+### 1. Preserve the framework contract
 
-### 4. Assign and test events
+Work within the supplied Student FMOD project. Preserve required event paths, parameter names/labels, bank identities and other documented structures that Unity uses to communicate gameplay state.
 
-Use the supplied **Student FMOD Authoring** scene hierarchy and source prefabs under `Assets/MSP603/Resources/StudentAuthoring/`. Assign events through official FMOD components on those sources, not on temporary runtime clones.
+The framework supplies the technical hooks. Your assessed contribution is the audio and the creative/technical behaviour you build with them, according to the current assessment brief.
 
-The framework supplies playable states, authoring surfaces, parameters, and semantic hooks. You supply the event content, bank membership, assignments, parameter logic, spatialisation, routing, mixing, and creative intent. Intentionally blank events, emitters, and bank/project settings should remain blank until you author and assign your own work.
+### 2. Author, build and verify incrementally
 
-Test one simple event first, then bank loading, parameters, spatial behaviour, gameplay states, and mixing. Use the [FMOD Component Workflow](FMODComponentWorkflow.md) and [Vertical Slice Play Guide](VerticalSlicePlayGuide.md) for the next steps.
+Use a simple cycle:
 
-## Common setup failures
+1. make one clear authoring change in the supplied FMOD project;
+2. assign your source audio and implement the required behaviour;
+3. route the event appropriately;
+4. build the relevant bank(s);
+5. allow Unity to refresh the FMOD data;
+6. verify the change in Play Mode.
 
-| Symptom | Check |
-| --- | --- |
-| FMOD menu is missing | Required integration version, completed Unity import, and Console compilation errors |
-| Event is absent from Unity | Event bank assignment, successful bank build, configured project/bank path, and Event Browser refresh |
-| Event appears but is silent | Audible content, correct event assignment, loaded bank, mixer routing, and volume/mute state |
-| Banks cannot be found | Build platform and output location, then the path configured in **FMOD > Edit Settings** |
-| References fail after moving computers | Reconnect to your own local FMOD project/banks and rebuild; do not preserve another machine's absolute path |
-| Game plays but has little/no sound | Blank student audio assignments are intentional; confirm whether you have authored, built, and assigned the relevant events |
+Do not make a large set of changes before confirming that the basic authoring/build/refresh cycle works.
 
-For recovery steps and reporting requirements, see [Troubleshooting and Support](Troubleshooting.md).
+### 3. Use the supplied parameters and state hooks
 
-## YOU ARE READY WHEN…
+v1.1.0 includes, among the wider framework controls:
+
+- global labelled `Paused`, through which Unity reports whether gameplay is paused;
+- local continuous `Proximity` on each tower's ambience instance;
+- existing tower parameters such as `TowerType`, `UpgradeLevel` and `Activity`.
+
+Unity reports the gameplay state. **You decide in FMOD what that state sounds like.** See the [FMOD Authoring Reference](FMODAuthoringReference.md).
+
+### 4. Understand spatialisation
+
+Do not treat parameter-driven Proximity as automatically equivalent to FMOD 3D spatialisation. The framework supports teaching distinctions between:
+
+- 2D audio;
+- genuine FMOD 3D spatialisation;
+- parameter-driven spatial response.
+
+Choose and justify the approach appropriate to your work and the assessment brief.
+
+### 5. Live Update / live control
+
+Unity's **Run In Background** setting is enabled so that Play Mode can continue while FMOD has focus. Where supported by the teaching setup, this allows FMOD Live Update/live-control workflows while the game continues running.
+
+## Teaching exercise versus assignment framework
+
+A lecturer may use a clean or empty FMOD project in a teaching exercise so that you learn how to create a parameter, event, bank or routing structure from the beginning.
+
+That does **not** mean you should discard the matching Student FMOD project supplied for the assessment framework.
+
+The intended sequence is:
+
+**learn it from scratch → understand it → find the corresponding structure in the Student project → apply your own implementation.**
+
+## You are ready when…
 
 - [ ] You are using Unity `6000.0.78f1`, FMOD Studio `2.03.14`, and FMOD for Unity `2.03.14`.
-- [ ] The Unity project has finished importing and compiling without FMOD compilation errors.
-- [ ] The FMOD menu and official FMOD components are available in Unity.
-- [ ] You have created your own FMOD Studio project.
-- [ ] Unity is connected to your project or built-bank directory.
-- [ ] A test event is assigned to a bank, the bank builds successfully, and the event appears in Unity.
-- [ ] You can assign that event to a supplied authoring source and hear it in Play Mode.
-- [ ] You understand that blank framework assignments are intentional and that the assessed audio work is yours to author.
+- [ ] Unity imports and compiles without FMOD compilation errors.
+- [ ] The supplied reference banks play before you begin replacing them.
+- [ ] The supplied Student `.fspro` opens normally in FMOD Studio.
+- [ ] You understand that the Student FMOD project is a scaffold, not the completed Lecturer solution.
+- [ ] You can make one authoring change, build the relevant bank, refresh Unity and hear/observe your change.
+- [ ] You understand that routing and other creative/technical implementation remain part of your own work.
+
+For recovery steps and reporting requirements, see [Troubleshooting and Support](Troubleshooting.md).
