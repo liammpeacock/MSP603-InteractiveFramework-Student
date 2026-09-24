@@ -1,16 +1,12 @@
-# MSP603 v1.0.0 — Student FMOD
+# MSP603 v1.1.0 — Student FMOD
 
-This is the student-only release surface. It contains student documentation and no lecturer reference project, reference audio, answer material, or lecturer Git history.
+This is the student-facing release and documentation surface for the MSP603 Interactive Framework. It contains the playable Unity framework, FMOD for Unity integration, a matching Student FMOD Studio project, required event/parameter/bank structures, and known-good compiled reference banks. It does not contain the Lecturer source audio or completed reference sound design.
 
 ## 🎮 Play the reference game
 
 **[Play MSP603 Tower Defence in your browser](https://bimmmcrliampeacock.itch.io/msp603-tower-defence)** — no installation is required.
 
-Use the browser version to learn the game, explore all three levels, and understand the gameplay states before or alongside your own audio implementation. Your assessed audio work is still created and tested in the approved Unity/FMOD student project below.
-
-## Download
-
-Use the release asset `MSP603-InteractiveFramework-v1.0.0-FMOD.zip` (SHA-256 `d537b08f11b13374330caa2ea6b2773f5c449edd31924b73b37732fd8e07b7bb`). It is a platform-neutral Unity authoring project validated on macOS Apple silicon and Windows Intel/x64.
+Use the browser version to learn the game, explore all three levels, and understand the gameplay states before or alongside your own audio implementation. Your assessed audio work is created and tested in the approved Unity/FMOD Student project.
 
 ## Required software
 
@@ -18,8 +14,18 @@ Use the release asset `MSP603-InteractiveFramework-v1.0.0-FMOD.zip` (SHA-256 `d5
 - FMOD Studio `2.03.14`
 - FMOD for Unity `2.03.14`
 
-Wwise is not included in v1.0.0. Start with the [MSP603 Student Guide](docs/StudentGuide.md); the [documentation index](docs/README.md) provides individually linkable Canvas/VLE topics.
+Wwise is not included in v1.1.0.
 
-## Current documentation
+## Start here
 
-The documentation in the downloaded ZIP is the snapshot supplied with `v1.0.0`. This repository's Markdown guides are the maintained source for current setup, troubleshooting, accessibility and teaching clarification. Use the GitHub documentation pages for VLE links; the release ZIP remains the approved project download.
+Begin with the [MSP603 Student Guide](docs/StudentGuide.md) and [Getting Started](docs/GettingStarted.md). The [documentation index](docs/README.md) provides the complete set of individually linkable Canvas/VLE topics.
+
+The supplied Student FMOD project is a scaffold, not a completed solution. Preserve its project identity, event paths, parameters and bank structure. You author the audio, parameter behaviour, routing, mixing, spatial response and creative implementation required by the assessment. Mixer/event routing is deliberately incomplete where it forms part of the learning activity.
+
+The package also includes known-good compiled reference banks. These let you confirm that the Unity framework and integration work before replacing the reference behaviour with your own authored and rebuilt FMOD banks.
+
+## v1.1.0 teaching features
+
+v1.1.0 adds teaching support for parameter-driven pause behaviour and per-tower cursor proximity, keeps Unity running in the background for supported FMOD Live Update workflows, and retains the existing three-level tower-defence framework.
+
+For setup, recovery and the supplied `.fspro` workflow, use [Setting Up FMOD After Downloading the Project](docs/FMODSetupGuide.md) and [Troubleshooting and Support](docs/Troubleshooting.md).
