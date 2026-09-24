@@ -2537,11 +2537,11 @@ MonoBehaviour:
   CollisionTag:
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path:
+      Data1: -1735312818
+      Data2: 1336113147
+      Data3: -906506338
+      Data4: -775629144
+    Path: event:/UI/LifeLost
   Event:
   EventPlayTrigger: 0
   EventStopTrigger: 0
