@@ -2,7 +2,7 @@
 
 ## Before you begin
 
-Use the approved **MSP603 v1.1.0 Student FMOD** package supplied through the VLE or the Student release surface. Do not use GitHub's automatically generated source archives.
+Use the approved **MSP603 v1.1.0 Student FMOD** package supplied through the VLE or [the latest approved Student release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/latest). Choose the versioned ZIP attached to the release; do not use GitHub's automatically generated source archives.
 
 The Student package includes the playable Unity project, FMOD for Unity integration, a matching Student FMOD Studio project, the required event/parameter/bank structure, and compiled reference banks.
 

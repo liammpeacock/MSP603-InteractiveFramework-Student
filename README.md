@@ -2,6 +2,10 @@
 
 This is the student-facing release and documentation surface for the MSP603 Interactive Framework. It contains the playable Unity framework, FMOD for Unity integration, a matching Student FMOD Studio project, required event/parameter/bank structures, and known-good compiled reference banks. It does not contain the Lecturer source audio or completed reference sound design.
 
+## Download the approved Student package
+
+**[Download the latest approved MSP603 Student release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/latest)**. Choose the versioned ZIP attached to the release; do not use GitHub's automatically generated source archives. This stable URL is suitable for Canvas/VLE links.
+
 ## 🎮 Play the reference game
 
 **[Play MSP603 Tower Defence in your browser](https://bimmmcrliampeacock.itch.io/msp603-tower-defence)** — no installation is required.
