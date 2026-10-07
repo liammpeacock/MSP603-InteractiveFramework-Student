@@ -5,17 +5,19 @@ This guide assumes no previous Unity/FMOD integration experience. Complete Part 
 ## Required versions
 
 - Unity Editor `6000.0.78f1`
-- FMOD Studio `2.03.14`
-- FMOD for Unity `2.03.14`
+- FMOD Studio `2.03.13`
+- FMOD for Unity `2.03.13`
 
 Use the approved **MSP603 v1.1.0 Student FMOD** package. Do not use GitHub's automatically generated source archives or a Lecturer Reference package.
+
+For official download links and the exact Unity/FM0D installation routes, see [Required Software](RequiredSoftware.md).
 
 ## What the Student package contains
 
 The v1.1.0 Student package includes:
 
 - the playable Unity framework;
-- FMOD for Unity `2.03.14`;
+- FMOD for Unity `2.03.13`;
 - the matching Student FMOD Studio project;
 - the required event, parameter and bank structure;
 - compiled known-good reference banks;
@@ -53,7 +55,7 @@ The reference banks are diagnostic material. They are not evidence that the Stud
 
 ### 3. Open the supplied Student FMOD project
 
-Open `Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro` in FMOD Studio `2.03.14`.
+Open `Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro` in FMOD Studio `2.03.13`.
 
 The project retains the framework's integration contract, including required event paths, parameters and bank structure. Lecturer source audio is not included. Event content, routing and creative implementation remain for you to author.
 
@@ -63,7 +65,7 @@ The project retains the framework's integration contract, including required eve
 
 ### 4. Reintegrate only when necessary
 
-If the FMOD menu or component types are genuinely missing or damaged, use the institution-approved FMOD for Unity `2.03.14` repair/reintegration route.
+If the FMOD menu or component types are genuinely missing or damaged, use the institution-approved FMOD for Unity `2.03.13` repair/reintegration route described in [Required Software](RequiredSoftware.md).
 
 After repair, continue using the supplied Student `.fspro`. An **Event Not Found** message after reintegration can mean Unity has retained the event path but has not yet resolved the matching FMOD event data. Do not respond by creating a replacement FMOD project.
 
@@ -126,7 +128,7 @@ The intended sequence is:
 
 ## You are ready when…
 
-- [ ] You are using Unity `6000.0.78f1`, FMOD Studio `2.03.14`, and FMOD for Unity `2.03.14`.
+- [ ] You are using Unity `6000.0.78f1`, FMOD Studio `2.03.13`, and FMOD for Unity `2.03.13`.
 - [ ] Unity imports and compiles without FMOD compilation errors.
 - [ ] The supplied reference banks play before you begin replacing them.
 - [ ] The supplied Student `.fspro` opens normally in FMOD Studio.
