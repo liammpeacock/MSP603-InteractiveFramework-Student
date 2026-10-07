@@ -4,6 +4,8 @@
 
 Use the approved **MSP603 v1.1.0 Student FMOD** package supplied through the VLE or [the latest approved Student release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/latest). Choose the versioned ZIP attached to the release; do not use GitHub's automatically generated source archives.
 
+Before opening the project, install the validated software listed in [Required Software](RequiredSoftware.md), including Unity `6000.0.78f1` and FMOD Studio `2.03.13`.
+
 The Student package includes the playable Unity project, FMOD for Unity integration, a matching Student FMOD Studio project, the required event/parameter/bank structure, and compiled reference banks.
 
 ## Open the Unity project
@@ -25,7 +27,7 @@ The matching Student project is:
 
 `Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro`
 
-Open this supplied project in FMOD Studio `2.03.14`. Do not replace it with an unrelated new FMOD project.
+Open this supplied project in FMOD Studio `2.03.13`. Do not replace it with an unrelated new FMOD project.
 
 ![Student FMOD Event Browser showing the supplied Enemies, Music, Towers and UI event scaffold](images/fmod-student-event-scaffold.png)
 
