@@ -10,7 +10,7 @@ This guide assumes no previous Unity/FMOD integration experience. Complete Part 
 
 Use the approved **MSP603 v1.1.0 Student FMOD** package. Do not use GitHub's automatically generated source archives or a Lecturer Reference package.
 
-For official download links and the exact Unity/FM0D installation routes, see [Required Software](RequiredSoftware.md).
+For official download links and the exact Unity/FMOD installation routes, see [Required Software](RequiredSoftware.md).
 
 ## What the Student package contains
 
