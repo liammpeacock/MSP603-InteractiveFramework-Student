@@ -24,8 +24,12 @@ Do not substitute newer Unity or FMOD versions unless your lecturer explicitly t
 4. Locate **Unity 6000.0.78f1**.
 5. The specific release page is:
    - https://unity.com/releases/editor/whats-new/6000.0.78f1
-6. On that page, click **Install**. If Unity Hub is already installed and you are signed in, the browser should hand the installation to Unity Hub.
-7. If the Hub hand-off does not work, use the same release page and choose the correct manual installer for your operating system.
+6. To open the exact editor version directly in Unity Hub, use:
+   - unityhub://6000.0.78f1/ec8a99a872be
+7. If your browser asks permission to open Unity Hub, allow it.
+8. If the direct Hub link does not work, open the release page above and click **Install** instead.
+9. If Hub installation is unavailable, use the manual download route for this exact release:
+   - https://beta.unity3d.com/download/ec8a99a872be/download.html
 
 **Required editor version: `6000.0.78f1`. Do not install a different Unity 6 version for this project.**
 
