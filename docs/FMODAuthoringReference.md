@@ -11,9 +11,9 @@ This is the student-safe catalogue of framework opportunities. It identifies wha
 | `RTPC_SFX_Volume` | Global continuous | `0`–`100`; driven by SFX volume controls. |
 | `RTPC_WaveCounter` | Global labelled | `Wave0`, `Wave1`, `Wave2`, `Wave3`, `Wave4`, `Victory`, `Defeat`. |
 | `Lives` | Global discrete | `0`–`20`; published at level start and on life loss. |
-| `TowerType` | Local labelled | `Cannon`, `Archer`, `Inferno`, `Mage` on tower authoring Prefabs. |
-| `UpgradeLevel` | Local labelled | `1`, `2`, `3` for tower state work. |
-| `Activity` | Local labelled | `Idle`, `Targeting`, `Firing`; Firing can be brief (one frame), so author transitions accordingly. |
+| `TowerType` | Local labelled | `Cannon` (`0`), `Archer` (`1`), `Inferno` (`2`), `Mage` (`3`); configured on the tower authoring prefabs. |
+| `UpgradeLevel` | Local labelled | Labels `1`, `2`, `3` map to underlying numeric values `0`, `1`, `2` respectively. |
+| `Activity` | Local labelled | `Idle` (`0`), `Firing` (`1`), `Targeting` (`2`); `Firing` may last only one gameplay frame. |
 
 ![FMOD Paused labelled parameter configured globally with Unpaused as its initial value](images/fmod-paused-global-parameter.png)
 
@@ -46,7 +46,7 @@ This is the student-safe catalogue of framework opportunities. It identifies wha
 All four tower families—Cannon, Archer, Mage, and Inferno—have source prefabs and support placement, targeting/activity, three upgrade tiers, selling, and destruction.
 
 - `TowerBuilt`, `TowerUpgraded`, `TowerUpgradeFailed`, `TowerSold`, and `TowerDestroyed` describe shared lifecycle moments.
-- Each tower instance has local `TowerType`, `UpgradeLevel`, `Activity`, and `Proximity` authoring opportunities. The supplied tower-parameter component explicitly publishes `UpgradeLevel` labels `1`/`2`/`3`, `Activity` labels `Idle`/`Targeting`/`Firing`, and continuous cursor-based `Proximity` from `0` to `1` (within 1.25 × effective tower range). `TowerType` is available on the tower authoring prefabs; do not assume the tower-parameter component dynamically republishes it. `Firing` may revert to `Targeting` on the next gameplay frame. Parameter presence does not guarantee audible automation: author and test each response in FMOD, rebuild banks, and verify in Unity.
+- Each tower instance has local `TowerType`, `UpgradeLevel`, `Activity`, and `Proximity` authoring opportunities. The supplied tower-parameter component explicitly publishes `UpgradeLevel` labels `1`/`2`/`3`, `Activity` labels `Idle`/`Targeting`/`Firing`, and continuous cursor-based `Proximity` from `0` to `1` (within 1.25 × effective tower range). `TowerType` is available on the tower authoring prefabs; do not assume the tower-parameter component dynamically republishes it. `Firing` may revert to `Targeting` on the next gameplay frame. The supplied Student FMOD authoring scaffold has no assigned `Tower_Ambience` audio; the separate compiled reference banks are not a completed student sound design. Parameter presence does not guarantee audible automation: author and test each response in FMOD, rebuild banks, and verify in Unity.
 - Tower prefabs expose placed, attack, upgrade, and destroyed UnityEvents for official-component workflows.
 
 ![Tower Ambience event displaying TowerType, UpgradeLevel, Activity and Proximity parameters](images/fmod-tower-ambience-parameters.png)
