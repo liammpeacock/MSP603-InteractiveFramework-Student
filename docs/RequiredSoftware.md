@@ -5,8 +5,8 @@ Install this validated software set before opening the **MSP603 Interactive Fram
 | Software | Required version |
 | --- | --- |
 | Unity Editor | `6000.0.78f1` |
-| FMOD Studio | `2.03.13` |
-| FMOD for Unity | `2.03.13` — pre-integrated in the approved Student project; reinstall only if integration recovery is required |
+| FMOD Studio | `2.03.14` |
+| FMOD for Unity | `2.03.14` — pre-integrated in the approved Student project; reinstall only if integration recovery is required |
 
 The Student project is a single platform-neutral Unity authoring package validated for **Windows/Intel x64** and **macOS Apple silicon**.
 
@@ -33,29 +33,29 @@ Do not substitute newer Unity or FMOD versions unless your lecturer explicitly t
 
 **Required editor version: `6000.0.78f1`. Do not install a different Unity 6 version for this project.**
 
-## Download FMOD Studio 2.03.13
+## Download FMOD Studio 2.03.14
 
 FMOD downloads require an FMOD account.
 
 1. Go to the official FMOD download page:
    - https://www.fmod.com/download
 2. Sign in or create a free FMOD account.
-3. Find **FMOD Studio 2.03.13** in the available 2.03 downloads/older versions.
+3. Find **FMOD Studio 2.03.14** in the available 2.03 downloads/older versions.
 4. Download the installer for your operating system.
 
-**Required FMOD Studio version: `2.03.13`. Do not simply install the newest FMOD Studio release.**
+**Required FMOD Studio version: `2.03.14`. Do not simply install the newest FMOD Studio release.**
 
-## FMOD for Unity 2.03.13
+## FMOD for Unity 2.03.14
 
 The approved Student package already contains the FMOD for Unity integration. You normally do **not** need to reinstall it.
 
-If the integration is missing or damaged, use **FMOD for Unity 2.03.13**.
+If the integration is missing or damaged, use **FMOD for Unity 2.03.14**.
 
 Official Unity Asset Store page:
 
 - https://assetstore.unity.com/packages/package/1082237
 
-The Asset Store page is for the **FMOD for Unity (2.03)** package and exposes multiple releases. Make sure you select **2.3.13 / 2.03.13**, not the current/latest version.
+The Asset Store page is for the **FMOD for Unity (2.03)** package and exposes multiple releases. Make sure you select **2.3.13 / 2.03.14**, not the current/latest version.
 
 ### Finding FMOD for Unity from inside Unity
 
@@ -81,7 +81,7 @@ The supplied project is located at:
 
 `Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro`
 
-Use the supplied project with FMOD Studio `2.03.13`.
+Use the supplied project with FMOD Studio `2.03.14`.
 
 ## Installation and recovery
 
