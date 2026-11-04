@@ -15,8 +15,8 @@ Use the browser version to learn the game, explore all three levels, and underst
 ## Required software
 
 - Unity `6000.0.78f1`
-- FMOD Studio `2.03.13`
-- FMOD for Unity `2.03.13`
+- FMOD Studio `2.03.14`
+- FMOD for Unity `2.03.14`
 
 Use the [Required Software guide](docs/RequiredSoftware.md) for official Unity Hub, Unity Editor, FMOD Studio and FMOD for Unity download/install links.
 
