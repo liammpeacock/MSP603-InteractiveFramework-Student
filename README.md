@@ -1,4 +1,12 @@
-# MSP603 v1.1.0 — Student FMOD
+# MSP603 Student releases
+
+**v1.1.0 remains the approved original release. v2.0.0 is an optional upgrade in preparation, not yet available.** This preparation branch has draft v2 documentation; its checked-in teaching payload remains historical v1.1.
+
+- [Original v1.1.0 release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/tag/v1.1.0).
+- [Direct original v1.1.0 ZIP](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/download/v1.1.0/MSP603-InteractiveFramework-Student-v1.1.0.zip).
+- [v2 draft notes](docs/ReleaseNotes-v2.0.0.md): counts and fixes with fully audio-free source/banks. Expected silence until students author audio. No v2 ZIP/checksum exists yet.
+
+## Original v1.1.0 overview
 
 This is the student-facing release and documentation surface for the MSP603 Interactive Framework. It contains the playable Unity framework, FMOD for Unity integration, a matching Student FMOD Studio project, required event/parameter/bank structures, and known-good compiled reference banks. It does not contain the Lecturer source audio or completed reference sound design.
 

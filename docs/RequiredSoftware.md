@@ -1,90 +1,39 @@
-# Required Software
+# Required software
 
-Install this validated software set before opening the **MSP603 Interactive Framework v1.1.0**:
+For the unreleased v2 candidate use the set below. Full v2 runtime/platform acceptance remains pending. Historical Student v1.1.0 uses its published 2.03.14 instructions; do not change an existing assessment project to these versions automatically.
 
 | Software | Required version |
 | --- | --- |
 | Unity Editor | `6000.0.78f1` |
-| FMOD Studio | `2.03.14` |
-| FMOD for Unity | `2.03.14` — pre-integrated in the approved Student project; reinstall only if integration recovery is required |
+| FMOD Studio | `2.03.13` |
+| FMOD for Unity | `2.03.13` (pre-integrated in the approved project; reinstall only if integration recovery is required) |
 
-The Student project is a single platform-neutral Unity authoring package validated for **Windows/Intel x64** and **macOS Apple silicon**.
+The student project is a single platform-neutral Unity authoring package intended for Windows/Intel x64 and macOS Apple silicon; final v2 cross-platform acceptance remains pending. It is not a prebuilt executable.
 
-It is not a prebuilt executable.
+## Official download links
 
-Do not substitute newer Unity or FMOD versions unless your lecturer explicitly tells you to do so. Small version differences can create compatibility problems that are unrelated to your assessed audio work.
+### Unity Hub and Unity 6000.0.78f1
 
-## Download Unity Hub and Unity 6000.0.78f1
+- Unity Hub: https://unity.com/download
+- Unity Download Archive: https://unity.com/releases/editor/archive
+- Unity 6000.0.78f1 release page: https://unity.com/releases/editor/whats-new/6000.0.78f1
+- Direct Unity Hub install link: unityhub://6000.0.78f1/ec8a99a872be
+- Manual download route for this exact release: https://beta.unity3d.com/download/ec8a99a872be/download.html
 
-1. Download and install **Unity Hub** from the official Unity site:
-   - https://unity.com/download
-2. Sign in to Unity Hub with your Unity ID.
-3. Open Unity's official **Download Archive**:
-   - https://unity.com/releases/editor/archive
-4. Locate **Unity 6000.0.78f1**.
-5. The specific release page is:
-   - https://unity.com/releases/editor/whats-new/6000.0.78f1
-6. To open the exact editor version directly in Unity Hub, use:
-   - unityhub://6000.0.78f1/ec8a99a872be
-7. If your browser asks permission to open Unity Hub, allow it.
-8. If the direct Hub link does not work, open the release page above and click **Install** instead.
-9. If Hub installation is unavailable, use the manual download route for this exact release:
-   - https://beta.unity3d.com/download/ec8a99a872be/download.html
+Install Unity Hub, sign in, then use the **Install** button on the Unity 6000.0.78f1 release page. With Unity Hub installed, the browser should hand the installation to Hub. Do not substitute another Unity 6 editor version.
 
-**Required editor version: `6000.0.78f1`. Do not install a different Unity 6 version for this project.**
+### FMOD Studio 2.03.13
 
-## Download FMOD Studio 2.03.14
+- Official FMOD downloads: https://www.fmod.com/download
 
-FMOD downloads require an FMOD account.
+Sign in with an FMOD account and select **FMOD Studio 2.03.13** from the 2.03/older-version downloads. Do not simply install the newest FMOD release.
 
-1. Go to the official FMOD download page:
-   - https://www.fmod.com/download
-2. Sign in or create a free FMOD account.
-3. Find **FMOD Studio 2.03.14** in the available 2.03 downloads/older versions.
-4. Download the installer for your operating system.
+### FMOD for Unity 2.03.13
 
-**Required FMOD Studio version: `2.03.14`. Do not simply install the newest FMOD Studio release.**
+- Unity Asset Store — FMOD for Unity (2.03) UPM: https://assetstore.unity.com/packages/package/1082237
 
-## FMOD for Unity 2.03.14
+The Asset Store listing contains multiple 2.03 releases. Select **2.3.13 / 2.03.13**, not the current/latest package.
 
-The approved Student package already contains the FMOD for Unity integration. You normally do **not** need to reinstall it.
+If recovery is required from inside Unity, open **Window > Package Manager**, use the **My Assets** / Asset Store workflow, search for **FMOD for Unity (2.03)** by **FMOD**, and choose release **2.3.13** before downloading/importing it. Do not update the project to a newer FMOD integration unless instructed by your lecturer.
 
-If the integration is missing or damaged, use **FMOD for Unity 2.03.14**.
-
-Official Unity Asset Store page:
-
-- https://assetstore.unity.com/packages/package/1082237
-
-The Asset Store page is for the **FMOD for Unity (2.03)** package and exposes multiple releases. Make sure you select **2.3.13 / 2.03.14**, not the current/latest version.
-
-### Finding FMOD for Unity from inside Unity
-
-If you need to recover the integration from within the Unity project:
-
-1. Open the project in Unity `6000.0.78f1`.
-2. Open **Window > Package Manager**.
-3. Use the **My Assets** / Asset Store workflow available through Unity, or open the Unity Asset Store in your browser.
-4. Search for **FMOD for Unity (2.03)** by **FMOD**.
-5. Open the FMOD package page.
-6. Choose release **2.3.13**.
-7. Add/download/import that version only if the existing integration genuinely needs repairing.
-
-If Unity offers a newer FMOD package by default, do not update the project to it.
-
-## FMOD project
-
-The package includes the supplied MSP603 Student FMOD Studio project.
-
-You do **not** need to create a separate FMOD project for the assignment framework.
-
-The supplied project is located at:
-
-`Audio/FMOD/MSP603_26-27_TD/MSP603_26-27_TD.fspro`
-
-Use the supplied project with FMOD Studio `2.03.14`.
-
-## Installation and recovery
-
-For first-time setup, integration checks or recovery, follow the [FMOD Setup Guide](FMODSetupGuide.md).
-
-Do not substitute other Unity or FMOD versions without lecturer approval. Version differences can introduce integration or compatibility problems that are unrelated to your audio work.
+For installation, integration checks, or recovery, follow [Setting Up FMOD After Downloading the Project](FMODSetupGuide.md). Do not substitute other Unity or FMOD versions without lecturer approval.
