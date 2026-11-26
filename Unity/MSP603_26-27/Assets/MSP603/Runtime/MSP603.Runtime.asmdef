@@ -1,0 +1,14 @@
+{
+    "name": "MSP603.Runtime",
+    "rootNamespace": "MSP603.TowerDefense",
+    "references": ["Unity.InputSystem", "FMODUnity"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

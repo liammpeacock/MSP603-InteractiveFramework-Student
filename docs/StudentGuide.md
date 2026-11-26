@@ -2,7 +2,7 @@
 
 ## Start here
 
-The **MSP603 Interactive Framework v2.0.0 candidate (unreleased)** is a playable, three-level tower-defence vertical slice for MSP603 Game Sound & Music. It gives you a working game in which you can design, implement, test, and evaluate interactive audio without first building the gameplay systems yourself.
+The **MSP603 Interactive Framework v2.0.0** is a playable, three-level tower-defence vertical slice for MSP603 Game Sound & Music. It gives you a working game in which you can design, implement, test, and evaluate interactive audio without first building the gameplay systems yourself.
 
 The four playable towers are **Cannon**, **Archer**, **Mage**, and **Inferno**. Across the three levels you can explore waves, enemy movement and combat, tower placement and upgrades, projectile impacts, Inferno's sustained flame, player-life loss, music and ambience states, victory/defeat, and interface/settings feedback.
 

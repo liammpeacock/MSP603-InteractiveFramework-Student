@@ -1,6 +1,6 @@
 # Required software
 
-For the unreleased v2 candidate use the set below. Full v2 runtime/platform acceptance remains pending. Historical Student v1.1.0 uses its published 2.03.14 instructions; do not change an existing assessment project to these versions automatically.
+For the unreleased v2.0.0 use the set below. Full v2 runtime/platform acceptance remains pending. Historical Student v1.1.0 uses its published 2.03.14 instructions; do not change an existing assessment project to these versions automatically.
 
 | Software | Required version |
 | --- | --- |

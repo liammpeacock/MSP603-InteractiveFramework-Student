@@ -29,4 +29,4 @@ Use **Report a Bug** in the Main Menu or pause menu. If the framework cannot ope
 
 ## Audio-free v2 starting point
 
-The unreleased v2 template and its intended matching banks contain no authored audio. Silence is expected until you author and build your own audio. Check event/GUID/parameter resolution and bank-loading errors separately; never fix expected silence by copying private Lecturer/Student-Dev banks. Existing v1.1.0 users must follow their historical 2.03.14 package instructions.
+The v2.0.0 template and its intended matching banks contain no authored audio. Silence is expected until you author and build your own audio. Check event/GUID/parameter resolution and bank-loading errors separately; never fix expected silence by copying private Lecturer/Student-Dev banks. Existing v1.1.0 users must follow their historical 2.03.14 package instructions.

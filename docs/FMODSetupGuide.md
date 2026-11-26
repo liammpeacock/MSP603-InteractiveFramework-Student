@@ -1,6 +1,6 @@
-# FMOD setup — Student v2 candidate
+# FMOD setup — Student v2.0.0
 
-v2.0.0 is in preparation and is not yet an approved download. This guide describes the intended audio-free package. Existing v1.1.0 users should follow that release's documentation and software requirements.
+v2.0.0 is the optional audio-free upgrade. Existing v1.1.0 users should follow that release's documentation and software requirements.
 
 Use Unity 6000.0.78f1, FMOD Studio 2.03.13 and the included FMOD for Unity 2.03.13. Do not import a second integration or silently upgrade it.
 

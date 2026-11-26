@@ -1,6 +1,6 @@
 # Optional v2 migration and backup
 
-v2.0.0 is not yet released. The original [v1.1.0 release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/tag/v1.1.0) and its [fixed ZIP](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/download/v1.1.0/MSP603-InteractiveFramework-Student-v1.1.0.zip) remain available. Existing students may stay on the version specified by their brief/VLE.
+v2.0.0 is an optional upgrade. The original [v1.1.0 release](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/tag/v1.1.0) and its [fixed ZIP](https://github.com/liammpeacock/MSP603-InteractiveFramework-Student/releases/download/v1.1.0/MSP603-InteractiveFramework-Student-v1.1.0.zip) remain available. Existing students may stay on the version specified by their brief/VLE.
 
 Before an optional upgrade, back up the entire current Unity/FMOD assessment project and your source audio. Extract v2 separately. Do not overwrite the existing project, blindly copy Library/Packages/ProjectSettings, or import a second FMOD integration. Ask the module team before migrating assessed work.
 
